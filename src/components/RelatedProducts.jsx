@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { ShopContext } from '../context/ShopContext';
-import Title from './Title';  // Assuming you have a Title component for the heading.
+import Title from './Title';  
 
 const RelatedProducts = ({ category, subCategory }) => {
   const { products } = useContext(ShopContext);
